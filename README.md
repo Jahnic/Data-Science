@@ -1,5 +1,8 @@
 # Documentation
 This reposatory is a collection of small personal projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools that I aquire along the way. <br />
+
+---
+
 [Ebay car sales](https://github.com/Jahnic/Projects/blob/master/Ebay%20car%20sales.ipynb) <br />
 * Data cleaning project usings pandas and numpy <br />
 
