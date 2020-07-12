@@ -14,3 +14,4 @@ ___
 
 [RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/Web%20scraping%20RedFlagDeals.com.ipynb)
 * Extraction of relevant information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
+* This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals)
