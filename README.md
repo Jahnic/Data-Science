@@ -1,5 +1,5 @@
 # Documentation
-This reposatory is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools that I aquire along the way. <br />
+This reposatory is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools aquired along the way. <br />
 
 ___
 
