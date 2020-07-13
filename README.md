@@ -1,5 +1,5 @@
 # Documentation
-This reposatory is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools that I aquire along the way. <br />
+This reposatory is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools aquired along the way. <br />
 
 ___
 
@@ -11,3 +11,7 @@ ___
 
 [Hacker News posts](https://github.com/Jahnic/Projects/blob/master/hacker_news.ipynb) <br />
 * Basic analysis and identification of most frequently discussed URLs on HN using only build-in functions
+
+[RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/Web%20scraping%20RedFlagDeals.com.ipynb)
+* Extraction of relevant information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
+* This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals)
