@@ -12,6 +12,6 @@ ___
 [Hacker News posts](https://github.com/Jahnic/Projects/blob/master/hacker_news.ipynb) <br />
 * Basic analysis and identification of most frequently discussed URLs on HN using only build-in functions
 
-[RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/Web%20scraping%20RedFlagDeals.com.ipynb)
+[RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/rfd_scrape.csv)
 * Extraction of relevant information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
 * This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals)
