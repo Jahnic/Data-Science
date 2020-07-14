@@ -3,7 +3,7 @@ This reposatory is a collection of small projects using Python for data analysis
 
 ___
 
-[Ebay car sales](https://github.com/Jahnic/Projects/blob/master/Ebay%20car%20sales.ipynb) <br />
+[Ebay car sales](https://github.com/Jahnic/Documentation/blob/master/ebay_car_sales.ipynb) <br />
 * Data cleaning project using pandas and numpy <br />
 
 [App store sales](https://github.com/Jahnic/Projects/blob/master/free_app_analysis.ipynb) <br />
