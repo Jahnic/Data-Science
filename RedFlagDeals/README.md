@@ -1,6 +1,10 @@
 ![image](rfd_logo.png)
 
+### Project Overview
+
 [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/) is a forum where users can post sales or deals that they have come across. The first part of this project is focused on scraping relevant information from the "All Hot Deals" section that includes all product categories. In the second and third part I will clean and visualize the data to extract and summarize useful information. A description of columns found in the main table is given below.  
+
+### Main Table Description
 
 |Column name|Description|
 |---|---|
