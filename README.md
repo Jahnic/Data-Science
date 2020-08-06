@@ -13,5 +13,5 @@ ___
 * Basic analysis and identification of most frequently discussed URLs on HN using only build-in functions
 
 [RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/RedFlagDeals/web_scraping_RFD.ipynb)
-* Extraction of relevant information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
+* Extraction of information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
 * This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals)
