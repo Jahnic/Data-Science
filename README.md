@@ -19,4 +19,5 @@ ___
 
 [Real estate scraper](https://github.com/Jahnic/Documentation/tree/master/RealEstate)
 * Extraction of real estate listings found on [Centris](https://www.centris.ca/)
+* Use of selenium and webdriver to execute java-script elements
 * Data wrangling 
