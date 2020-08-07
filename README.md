@@ -15,8 +15,8 @@ ___
 [RedFlagDeals scraper](https://github.com/Jahnic/Documentation/blob/master/RedFlagDeals)
 * Extraction of information about sales posted on [RedFlagDeals](https://forums.redflagdeals.com/hot-deals-f9/)
 * Data cleaning and dealing with missing values
-* This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals)
+* This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals/)
 
 [Real estate scraper](https://github.com/Jahnic/Documentation/tree/master/RealEstate)
-* Extraction of real estate listings found on [Centris](centris.ca)
+* Extraction of real estate listings found on [Centris](https://www.centris.ca/)
 * Data wrangling 
