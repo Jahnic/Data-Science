@@ -23,4 +23,4 @@ ___
 * Data wrangling 
 
 [Algorithms](https://github.com/Jahnic/practice_projects/blob/master/algorithms_practice.ipynb)
-* Reverse engineer common algorithms based on knowledge about their functionality
+* Reverse engineering common algorithms
