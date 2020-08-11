@@ -1,10 +1,10 @@
-# Documentation
-This reposatory is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools aquired along the way. <br />
+# Practice Projects
+This repository is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools acquired along the way. Also, this repository holds larger projects in progress, that will be moved to `Portfolio` after completion. <br />
 
 ___
 
 [Ebay car sales](https://github.com/Jahnic/Documentation/blob/master/ebay_car_sales.ipynb) <br />
-* Data cleaning project using pandas and numpy <br />
+* Data cleaning project using pandas and NumPy <br />
 
 [App store sales](https://github.com/Jahnic/Projects/blob/master/free_app_analysis.ipynb) <br />
 * Short analysis of free apps in the google and apple app store using only build-in functions <br />
@@ -19,5 +19,8 @@ ___
 
 [Real estate scraper](https://github.com/Jahnic/Documentation/tree/master/RealEstate)
 * Extraction of real estate listings found on [Centris](https://www.centris.ca/)
-* Use of selenium and webdriver to execute java-script elements
+* Use of selenium and Chrome Webdriver to execute java-script elements
 * Data wrangling 
+
+[Algorithms](https://github.com/Jahnic/practice_projects/blob/master/algorithms_practice.ipynb)
+* Reverse engineer common algorithms based on knowledge about their functionality
