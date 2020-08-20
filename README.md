@@ -1,5 +1,5 @@
 # Practice Projects
-This repository is a collection of small projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools acquired along the way. Also, this repository holds larger projects in progress, that will be moved to `Portfolio` after completion. <br />
+This repository is a collection of projects using Python for data analysis and machine learning. The intent is to have a documentation of my progress and of new tools acquired along the way. This repository also holds larger projects in progress, such as `Real_estate_scraper`, that will be moved to `Portfolio` after completion. <br />
 
 ___
 
