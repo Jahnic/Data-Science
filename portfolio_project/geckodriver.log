@@ -4,3 +4,306 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1599672866012	Marionette	INFO	Listening on port 42687
 1599672866097	Marionette	WARN	TLS certificate errors will be ignored for this session
 1599672877523	Marionette	INFO	Stopped listening on port 42687
+1599687499542	geckodriver	INFO	Listening on 127.0.0.1:47253
+1599687499549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile04kbBo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599687503143	Marionette	INFO	Listening on port 36097
+1599687503171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599687522220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599687895387	Marionette	INFO	Stopped listening on port 36097
+1599688058549	geckodriver	INFO	Listening on 127.0.0.1:35593
+1599688058559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaFulnR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599688061515	Marionette	INFO	Listening on port 36373
+1599688061572	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599688083997	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.glassdoor.com/jobs-ux-app/static/js/gd-jx-core-bottom-en-CA.js?v=f7237b3s8b, line 1: ReferenceError: separatePreferencesTreatment is not defined
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js, line 196: Script terminated by timeout at:
+Lh.prototype.handleEvent@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js:196:331
+lc/a[yc]@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js:35:175
+xc@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js:33:379
+qc@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js:34:473
+oc/b<@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/72f7b09/indeedapply-compiled.js:31:50
+r@https://www.glassdoor.com/jobs-ux-app/static/js/dist/gd-sentry.bundle.js?v=d015101l8s:16:42616
+
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals, line 2639: Script terminated by timeout at:
+Re@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2639:174
+@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2745:322
+Gb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:284
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:319
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:136
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:45
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:136
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:45
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:136
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:45
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:136
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:45
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:136
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2598:45
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:461
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:171
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+Hb@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2597:287
+Ib@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2596:376
+e@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2681:64
+La/<@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2586:114
+Kh/<@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2683:229
+Ih/<@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2682:473
+Ph@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2683:518
+Rh@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2686:9
+Tk@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2711:244
+Sk@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2710:241
+Uk@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2713:385
+Xk/a.push@https://www.googletagmanager.com/gtm.js?id=GTM-PST2JZ&l=gdGlobals:2716:89
+Xk/a.push@https://www.googletagmanager.com/gtm.js?id=GTM-PG9R3QP&l=gdGlobals:1593:456
+s/s.onmessage@https://www.glassdoor.com/jobs-ux-app/static/js/gd-jx-core-bottom-en-CA.js?v=f7237b3s8b:1:21418
+
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js, line 3: Script terminated by timeout at:
+fix@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:8072
+c@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:10312
+
+JavaScript error: https://www.glassdoor.com/jobs-ux-app/static/js/gd-jx-core-bottom-en-CA.js?v=f7237b3s8b, line 1: ReferenceError: separatePreferencesTreatment is not defined
+1599688410416	Marionette	INFO	Stopped listening on port 36373
+1599688452768	geckodriver	INFO	Listening on 127.0.0.1:50399
+1599688452775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb53SGT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599688455656	Marionette	INFO	Listening on port 43811
+1599688455690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.glassdoor.com/jobs-ux-app/static/js/gd-jx-core-bottom-en-CA.js?v=f7237b3s8b, line 1: ReferenceError: separatePreferencesTreatment is not defined
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599688506910	Marionette	INFO	Stopped listening on port 43811
+1599688718149	geckodriver	INFO	Listening on 127.0.0.1:34285
+1599688718156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledQiShd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599688720814	Marionette	INFO	Listening on port 33743
+1599688720889	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599688739978	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599688992026	geckodriver	INFO	Listening on 127.0.0.1:33729
+1599688992035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSt1o7Z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599688994953	Marionette	INFO	Listening on port 45053
+1599688995046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599689017315	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689098953	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689187905	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689191996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689200051	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689221599	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689230327	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689269999	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689311919	Marionette	INFO	Stopped listening on port 33743
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599689660759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599689846413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689893362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599689925437	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690003989	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690082420	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690241398	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690400530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690481915	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690564077	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690644966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690726817	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690800905	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599690809641	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691058631	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599691144035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691229212	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691307279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691316066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691402582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691576281	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599691664845	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691753362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691794077	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691804825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691859942	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691885898	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599691950954	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.google.ca/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: a is null
+1599691952240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599692044696	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://www.glassdoor.com/jobs-ux-app/static/js/gd-jx-core-bottom-en-CA.js?v=f7237b3s8b, line 1: ReferenceError: separatePreferencesTreatment is not defined
+1599692142935	Marionette	INFO	Stopped listening on port 45053

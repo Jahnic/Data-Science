@@ -19,8 +19,12 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
     driver = webdriver.Firefox(executable_path=path, options=options)
     driver.set_window_size(1120, 1000)
     
-    url = "https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword="+keyword+"&sc.keyword="+keyword+"&locT=&locId=&jobType="
-    #url = 'https://www.glassdoor.com/Job/jobs.htm?sc.keyword="' + keyword + '"&locT=C&locId=1147401&locKeyword=San%20Francisco,%20CA&jobType=all&fromAge=-1&minSalary=0&includeNoSalaryJobs=true&radius=100&cityId=-1&minRating=0.0&industryId=-1&sgocId=-1&seniorityType=all&companyId=-1&employerSizes=0&applicationType=0&remoteWorkType=0'
+    # Search in California
+    url = "https://www.glassdoor.ca/Job/jobs.htm?sc.generalKeyword="+keyword+"&sc.locationSeoString=california&locId=2280&locT=S"
+    # url_usa = "https://www.glassdoor.ca/Job/jobs.htm?sc.generalKeyword="+keyword+"&sc.locationSeoString=us&locId=1&locT=N"
+    # Alternative searches
+    #url_can = "https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword="+keyword+"&sc.keyword="+keyword+"&locT=&locId=&jobType="
+    #url_sanfran = 'https://www.glassdoor.com/Job/jobs.htm?sc.keyword="' + keyword + '"&locT=C&locId=1147401&locKeyword=San%20Francisco,%20CA&jobType=all&fromAge=-1&minSalary=0&includeNoSalaryJobs=true&radius=100&cityId=-1&minRating=0.0&industryId=-1&sgocId=-1&seniorityType=all&companyId=-1&employerSizes=0&applicationType=0&remoteWorkType=0'
     driver.get(url)
     jobs = []
 
@@ -76,8 +80,8 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
             try:
                 rating = driver.find_element_by_xpath('.//span[@class="rating"]').text
             except NoSuchElementException:
-                rating = -1 #You need to set a "not found value. It's important."
-
+                rating = -1 #set "not found value"
+                
             #Printing for debugging
             if verbose:
                 print("Job Title: {}".format(job_title))
