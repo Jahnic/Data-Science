@@ -2,7 +2,6 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 from selenium import webdriver
 import time
 import pandas as pd
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
 def get_jobs(keyword, num_jobs, verbose, path, slp_time):
@@ -10,13 +9,13 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
     '''Gathers jobs as a dataframe, scraped from Glassdoor'''
     
     #Initializing the webdriver
-    options = FirefoxOptions()
+    options = webdriver.ChromeOptions()
     
     #Uncomment the line below if you'd like to scrape without a new Chrome window every time.
-    options.add_argument('headless')
+    #options.add_argument('headless')
     
     #Change the path to where chromedriver is in your home folder.
-    driver = webdriver.Firefox(executable_path=path, options=options)
+    driver = webdriver.Chrome(executable_path=path, options=options)
     driver.set_window_size(1120, 1000)
     
     # Search in California
@@ -33,7 +32,23 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
         #Let the page load. Change this number based on your internet speed.
         #Or, wait until the webpage is loaded, instead of hardcoding it.
         time.sleep(slp_time)
-
+        
+        # Check if it's time to refresh page
+        refresh = False
+        for n_jobs in range(200, 230):
+            # True after every 200+ jobs
+            if (len(jobs) % n_jobs == 0) and (len(jobs) > 0):
+                refresh = True
+        
+        # Refresh page to circumvent bugs with the webdriver
+        if refresh:
+            for i in range(1,5):
+                driver.refresh()
+                print("Page is being refreshed: round {}/4".format(i))
+                time.sleep(5)
+            # Additional wait after final refresh
+            time.sleep(5)
+        
         #Test for the "Sign Up" prompt and get rid of it.
         try:
             driver.find_element_by_class_name("selected").click()
@@ -48,17 +63,17 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
         except NoSuchElementException:
             print(' x out failed')
             pass
-
+        
         
         #Going through each job in this page
         job_buttons = driver.find_elements_by_class_name("jl")  #jl for Job Listing. These are the buttons we're going to click.
-        for job_button in job_buttons:  
+        for job_button in job_buttons: 
 
             print("Progress: {}".format("" + str(len(jobs)) + "/" + str(num_jobs)))
             if len(jobs) >= num_jobs:
                 break
 
-            job_button.click()  #You might 
+            job_button.click()  #Next listing 
             time.sleep(1)
             collected_successfully = False
             
@@ -73,7 +88,10 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
                     time.sleep(5)
 
             try:
-                salary_estimate = driver.find_element_by_xpath('.//span[@class="gray salary"]').text
+                # salary_estimate = driver.find_element_by_xpath('.//span[@class="gray salary"]').text
+                # Only absolute path works properly
+                x_path = "/html/body/div[3]/div/div/div[1]/div/div[2]/section/div/div/article/div/div[1]/div[1]/div[3]/div[1]/div[4]/span"
+                salary_estimate = driver.find_element_by_xpath(x_path).text
             except NoSuchElementException:
                 salary_estimate = -1 #You need to set a "not found value. It's important."
             
