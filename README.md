@@ -17,10 +17,5 @@ ___
 * Data cleaning and dealing with missing values
 * This data-set has been made available on [kaggle.com](https://www.kaggle.com/jahnic/data-on-sales-posted-on-redflagdeals/)
 
-[Real estate scraper](https://github.com/Jahnic/Documentation/tree/master/RealEstate)
-* Extraction of real estate listings found on [Centris](https://www.centris.ca/)
-* Use of selenium and Chrome Webdriver to execute java-script elements
-* Data wrangling 
-
 [Algorithms](https://github.com/Jahnic/practice_projects/blob/master/algorithms_practice.ipynb)
 * Reverse engineering common algorithms
